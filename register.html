@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1{
+  font-size: 5em;
+      font-weight: 600;
+      color: rgba(191, 84, 46, 0.9);
+      
+      padding-bottom: 50px;
+	 margin: 5% auto 0 auto;
+
+      text-shadow: 1px 1px 3px $shadow-color;
+}
+
+
+$shadow-color: #23203b;
+$input-color: lighten(#AB9E95, 10%);
+$input-border-color: #5E5165;
+$button-background-color: #27AE60;
+body, input, button {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+html, body {
+ padding: 50px;
+  width: 600px;
+  min-height: 600px;
+  margin: 2% auto 0 auto;
+  color: rgba(255, 255, 255, 0.7);
+  background: url(http://localhost/Photos/bg.png)no-repeat center center fixed;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}</style>
+</head>
+<title> My shopping cart </title>
+<body>
+<h1>New user registration</h1>
+<form action="http://localhost/register.php" method="post">
+Username:<br>
+<input type="text" name="Name">
+<br>
+Email:<br>
+<input type="text" name="email">
+<br>
+password:<br>
+<input type="password" name="password">
+<br>
+<input type="submit" value="go">
+</form>
+</body>
+</html>
